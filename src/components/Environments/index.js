@@ -30,9 +30,9 @@ const Environments = () => {
         <table className="table-auto w-full border-collapse">
           <thead>
             <tr className="text-left">
-              <th className="px-4 py-2 font-semibold">Name</th>
-              <th className="px-4 py-2 font-semibold">Services</th>
-              <th className="px-4 py-2 font-semibold">Health</th>
+              <th className="px-4 py-2 text-sm font-medium text-gray-500 uppercase tracking-wider">Name</th>
+              <th className="px-4 py-2 text-sm font-medium text-gray-500 uppercase tracking-wider">Services</th>
+              <th className="px-4 py-2 text-sm font-medium text-gray-500 uppercase tracking-wider">Health</th>
             </tr>
           </thead>
           <tbody>
@@ -43,9 +43,9 @@ const Environments = () => {
                   index % 2 === 0 ? "bg-gray-100" : ""
                 } ${index < environments.length - 1 ? "border-b" : ""}`}
               >
-                <td className="px-4 py-2">{env.name}</td>
-                <td className="px-4 py-2">{env.services}</td>
-                <td className="px-4 py-2 flex items-center">
+                <td className="px-4 py-2 text-sm">{env.name}</td>
+                <td className="px-4 py-2 text-sm">{env.services}</td>
+                <td className="px-4 py-2 text-sm flex items-center">
                   {env.healthStatus === "success" ? (
                     <CheckCircle className="text-green-500 mr-2" />
                   ) : (

@@ -11,13 +11,13 @@ const Navbar = () => {
           </div>
           <nav className="flex items-center">
             <a
-              href="#"
+              href="/"
               className="ml-6 text-sm font-medium text-gray-800 hover:text-gray-900"
             >
               Environments
             </a>
             <a
-              href="#"
+              href="/services"
               className="ml-6 text-sm font-medium text-gray-800 hover:text-gray-900"
             >
               Services
