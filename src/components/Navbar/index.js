@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <StyledWrapper className="w-full site-navbar">
       <div>
-        <header className="flex justify-between items-center px-4 py-4 bg-white border-b border-gray-200">
+        <header className="flex justify-between items-center py-4 bg-white border-b border-gray-200">
           <div className="flex items-center">
             <h1 className="text-lg font-bold text-gray-800">uptime</h1>
           </div>

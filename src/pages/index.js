@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Navbar from 'components/Navbar';
 import Footer from 'components/Footer';
+import Environments from 'components/Environments';
 import GlobalStyle from '../globalStyles';
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
         <Navbar />
 
         <section>
-          Hello
+          <Environments />
         </section>
       </main>
       <Footer/>
